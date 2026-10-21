@@ -1,0 +1,37 @@
+media:
+  input: images
+  output: images
+content:
+  - name: home
+    label: Home page
+    type: file
+    path: content/pages/home.json
+    format: json
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: intro, label: Intro text, type: text }
+      - { name: image, label: Hero image, type: image }
+  - name: about
+    label: About page
+    type: file
+    path: content/pages/about.json
+    format: json
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: body, label: Body, type: text }
+      - { name: image, label: Photo, type: image }
+  - name: events
+    label: Events
+    type: file
+    path: content/events/events.json
+    format: json
+    fields:
+      - name: events
+        label: Events
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Event name, type: string }
+          - { name: date, label: Date, type: date }
+          - { name: location, label: Location, type: string }
+          - { name: details, label: Details, type: text }
