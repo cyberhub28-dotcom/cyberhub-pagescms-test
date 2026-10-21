@@ -1,1 +1,5 @@
-{"title":"Welcome to Riverbend Community Club","intro":"A sample site for testing Pages CMS. Edit this text in the editor and watch it change here.","image":"images/hero.jpg"}
+{
+  "title": "Welcome to Riverbend Community Club",
+  "intro": "A sample site for testing Pages CMS. Edit this text in the editor and watch it change here. (edited live in Pages CMS)",
+  "image": "images/hero.jpg"
+}
